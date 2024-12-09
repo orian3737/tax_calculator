@@ -1,0 +1,58 @@
+# Tax Calculator
+
+A simple Python GUI application for calculating tax based on income and tax rate. This application is built using the `tkinter` library.
+
+## Features
+- Input fields for income and tax rate (percentage).
+- A calculate button to compute the tax amount.
+- Display of the calculated tax in a dedicated field.
+- Handles invalid input gracefully with an error message.
+
+## Prerequisites
+- Python 3.6 or higher.
+
+## How to Run the Application
+
+1. Clone the repository or download the script.
+2. Make sure Python is installed on your system.
+3. Navigate to the directory containing the script in your terminal or command prompt.
+4. Run the script using:
+   ```bash
+   python main.py
+The GUI window will open, allowing you to enter your income and tax rate to calculate the tax.
+Usage
+Enter your income in the first input field.
+Enter the tax rate (as a percentage) in the second input field.
+Click the Calculate button.
+The calculated tax will appear in the tax field below.
+Project Structure
+bash
+Copy code
+.
+├── main.py       # Main application file
+├── README.md     # Documentation
+Example
+Input:
+Income: 50,000
+Tax Rate: 10%
+Output:
+Tax: $5,000.00
+Dependencies
+This project uses only the built-in tkinter module, which comes pre-installed with Python.
+
+Screenshots
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Happy Calculating!
+
+vbnet
+Copy code
+
+### Notes:
+- Replace the "Screenshot Placeholder" with an actual screenshot of your application if you have one.
+- Add a `LICENSE` file if you want to include licensing details.
+- Modify any section to fit additional project features or details.
+
+Let me know if you need further assistance!
